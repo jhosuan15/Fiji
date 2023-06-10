@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="fiji.png">
+    <style>
+      body {
+        background-color: #ffffff;
+        color: #000000;
+        overflow-x: hidden;
+      }
+      .dark-mode {
+        background-color: #212121;
+        color: #ffffff;
+      }
+
+      ::-webkit-scrollbar {
+        width: 10px; /* Ancho del scroll */
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #fff; /* Color del fondo del scroll */
+      }
+
+      ::-webkit-scrollbar-thumb {
+        height: 500px;
+        background-color: #122e45; /* Color de la barra de desplazamiento */
+      }
+      .form-check-input[type="checkbox"]:checked {
+  background-color: black;
+  border-color: black;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.form-check-input[type="checkbox"]:checked + .form-check-label::before {
+  border-color: black;
+}
+
+    </style>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bula!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="myNav">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a
+          class="navbar-brand"
+          href="#Fiji"
+          style="margin-left: 25px; font-weight: bolder"
+          >FIJI</a
+        >
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarTogglerDemo03" 
+        >
+          <ul class="navbar-nav"  >
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Foundation">Foundation</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Policy">Policy</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Flag">Flag</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Costumes">Costumes</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Traditions">Traditions</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Language">Language</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Trade">Trade</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Foods">Foods</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Clothes">Clothes</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Currency">Currency</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#FandF">Flora and Fauna</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Music">Music</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Instruments">Instruments</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Places">Places</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Sustaniability">Sustaniability</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Ubication">Ubication</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px">
+              <a class="nav-link" href="#Activities">Activities</a>
+            </li>
+            <li style="margin-top: 10px;" class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+
+      
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+          style="max-height: 780px;min-height: 300px;"
+            src="https://th.bing.com/th/id/R.4c574cd7ff8b6382d17aa2f1ed65e2aa?rik=2M6T8zzUR43wJw&riu=http%3a%2f%2fwww.turtlefiji.com%2fwp-content%2fuploads%2f2017%2f07%2fpeople-1.jpg&ehk=f10siAFwqwO33b%2bkvWCO9HQEHxkGY9qXGUKYfBz%2fI9Q%3d&risl=&pid=ImgRaw&r=0"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+          style="max-height: 780px;min-height: 300px;"
+            src="https://www.coralfire.vi/wp-content/uploads/2019/01/media_header-1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+          style="max-height: 780px;min-height: 300px;"
+            src="https://yummytravel.de/wp-content/uploads/2019/10/khao-lak-503.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div style="margin-top: 100px; margin: 0 25px" class="content content1" id="Fiji">
+      <h1
+        class="text-center"
+        style="border-bottom: 1px solid gray; padding: 50px"
+      >
+        FIJI
+      </h1>
+      <p style="padding: 25px; text-align: center">
+        Fiji is a beautiful archipelago located in the South Pacific Ocean. It is known for its stunning natural landscapes, pristine beaches, crystal-clear waters, and warm hospitality. Fiji consists of more than 300 islands, offering a tropical paradise for visitors from around the world.
+<br><br>
+        The two largest islands in Fiji are Viti Levu and Vanua Levu. Viti Levu is home to the capital city, Suva, which is the political, administrative, and economic center of Fiji. Suva is a vibrant city with a mix of modern buildings, colonial architecture, and a bustling waterfront. Nadi, located on the western side of Viti Levu, is another major city and serves as the main gateway for international tourists, as it is where the international airport is located.
+        <br><br>
+        Fiji's natural beauty is truly breathtaking. The islands are adorned with lush rainforests, cascading waterfalls, and picturesque mountains. The coastal areas are fringed with palm-lined beaches, offering opportunities for swimming, snorkeling, diving, and other water sports. The underwater world surrounding Fiji is particularly famous for its vibrant coral reefs, diverse marine life, and excellent diving spots.
+        <br><br>
+        In addition to its natural attractions, Fiji is renowned for its warm and friendly people. Fijians are known for their hospitality, making visitors feel welcome and embraced by the local culture. The traditional Fijian culture is deeply rooted in the islands, and you can experience it through various cultural ceremonies, dances, music, and cuisine.
+        <br><br>
+        When it comes to activities, Fiji offers a wide range of options. You can explore the bustling markets and shops, visit traditional villages, go hiking in the rainforests, or embark on exciting adventure activities such as ziplining, river rafting, or jet-skiing. There are also opportunities to experience Fijian traditions like kava ceremonies, where you can try the local drink made from the kava root.
+        <br><br>
+        Fiji has a tropical climate, characterized by warm temperatures throughout the year. The dry season generally runs from May to October, with cooler temperatures and less rainfall, making it a popular time for visitors. The wet season occurs from November to April and brings higher temperatures and occasional tropical storms.
+        <br><br>
+      </p>
+    </div>
+
+    <div style="margin-top: 100px; margin: 0 25px" class="content content2" id="Foundation">
+      <h1
+        class="text-center"
+        style="border-bottom: 1px solid gray; padding: 50px"
+      >
+        FOUNDATION
+      </h1>
+      <p style="padding: 25px; text-align: center">
+        Fiji is a small island where its original population were Australians who arrived on that island by ships, also saying that it was an English colony, hence their common language is English and its independence was in the year 1970, it is a country that it has a long history of conflicts and several coups and is currently a parliamentary republic but has had several different types of government such as the monarchy.
+      </p>
+    </div>
+    <div style="margin-top: 100px; margin: 0 25px" class="content content1" id="Policy">
+      <h1
+        class="text-center"
+        style="border-bottom: 1px solid gray; padding: 50px"
+      >
+        POLICY
+      </h1>
+      <p style="padding: 25px; text-align: center">
+        Fiji's politics is characterized as a parliamentary democracy and a republic, where the President serves as the Head of State and the Prime Minister as the Head of Government. However, Fiji's political history has experienced periods of instability and coups in the past.
+        <br><br>
+One notable aspect of Fiji's politics is the issue of ethnic composition and tensions between the indigenous Fijian communities and the Indo-Fijian communities. This has influenced the balance of power and political dynamics in the country.
+<br><br>
+In recent years, Fiji has undergone political changes and reforms. In 2006, a military coup led by Commodore Frank Bainimarama took place, and he assumed power and became the Prime Minister. Following the coup, significant changes were made to the constitution, and political and economic reforms were implemented.
+<br><br>
+One notable reform was the adoption of a new Constitution in 2013, which established a unicameral parliamentary system and promoted equality and non-discrimination. Additionally, general elections were held in 2014, marking an important step towards the restoration of democratic governance.
+<br><br>
+Currently, Fiji is governed by a democratically elected government led by the Prime Minister, and general elections have been held since the restoration of democracy in the country. However, it is important to note that past political challenges and tensions may still influence Fiji's political landscape.
+<br><br>
+Fiji also plays an active role in regional politics, being a member of various international and regional organizations such as the Commonwealth of Nations and the Pacific Islands Forum. The country seeks to promote its interests and contribute to regional affairs, particularly in areas such as climate change and sustainable development.
+<br><br>
+Overall, Fiji's politics continues to evolve as the country seeks to strengthen its democracy, address ethnic tensions, and promote economic and social development.
+      </p>
+    </div>
+    <div style="margin-top: 100px; margin: 0 25px" class="content content2" id="Flag">
+      <h1
+        class="text-center"
+        style="border-bottom: 1px solid gray; padding: 50px"
+      >
+        FLAG
+      </h1>
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+          style="padding: 25px;"
+            class="img-fluid"
+            src="https://www.worldatlas.com/r/w1200/img/flag/fj-flag.jpg"
+            alt=""
+          />
+        </div>
+        <div style="padding: 25px;" class="col-sm-8" >
+          <p text-align: center">
+            The flag of Fiji is an important symbol of the country, reflecting its identity and values. The current flag of Fiji was officially adopted on October 10, 1970, when Fiji gained independence from the United Kingdom.
+            <br><br>
+            The flag of Fiji consists of a dark blue background with the national coat of arms on the right side. The coat of arms features a coconut palm, symbolizing abundance and prosperity, and two traditional Fijian war clubs known as "totokia," representing the defense of the nation. Above the coat of arms, there is a white St. George's Cross, representing the historical connection with the United Kingdom.
+            <br><br>
+            In the top-left corner of the flag is the Union Jack, representing the historical relationship with the United Kingdom as a former British colony. This inclusion of the Union Jack is considered a tribute to history and past relationships.
+            <br><br>
+            Additionally, the flag of Fiji features a red stripe at the bottom, symbolizing the courage and bravery of the Fijian people. This red stripe is also a reminder of the sacrifices made by Fiji's ancestors in defense of their land and culture.
+            <br><br>
+            Overall, the flag of Fiji combines traditional elements and historical symbols with a modern design. It represents the national identity, independence, and cultural diversity of Fiji, as well as its link to colonial history and the struggle for freedom and self-governance.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top: 100px; margin: 0 25px" class="content content2" id="Costumes">
+      <h1
+        class="text-center"
+        style="border-bottom: 1px solid gray; padding: 50px"
+      >
+        Costumes
+      </h1>
+      <div class="container">
+        <div class="row">
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 1600px; max-height: 1600px;">
+                              <img style="max-height: 200px; min-height: 200px;" src="https://th.bing.com/th/id/OIP.UYtMJe02Q0qVBZ27umD46gHaFP?pid=ImgDet&rs=1" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">People should not wear dresses, hats, sunglasses, or shoulder bags
+                </h5>
+                <p class="card-text">This statement suggests that wearing these specific items of clothing or accessories is discouraged or prohibited. However, it's important to note that fashion choices and cultural norms regarding clothing can vary widely. In some cultures, certain types of clothing may have specific meanings or be associated with particular occasions or roles. However, in most societies, individuals are generally free to wear dresses, hats, sunglasses, and shoulder bags as they please, based on personal style, fashion trends, and individual preferences.</p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 1600px; max-height: 1600px;">
+                              <img style="max-height: 200px; min-height: 200px;" src="https://www.lared.cl/wp-content/uploads/2016/11/portada-shoes.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fiyijanos take off their shoes before entering the house</h5>
+                <p class="card-text">In many cultures, it is customary to remove one's shoes before entering a home. This practice helps maintain cleanliness and hygiene within the living spaces by preventing dirt, dust, and germs from being tracked inside. Taking off shoes before entering a house is not universal, and customs may differ depending on cultural traditions and individual households.</p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 1600px; max-height: 1600px;">
+                              <img style="max-height: 200px; min-height: 200px;" src="https://fijipocketguide.com/wp-content/uploads/2019/01/souvenirs-in-fiji.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Families make exchange of gifts
+                </h5>
+                <p class="card-text">The exchange of gifts within families is a common practice in many cultures, especially during special occasions such as birthdays, holidays, weddings, or religious celebrations. Gift-giving is a way to express love, appreciation, and strengthen social bonds within the family unit. The specific occasions and traditions surrounding gift-giving may vary from culture to culture, but the gesture itself is a universal way of showing affection and creating a sense of togetherness.</p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 1600px; max-height: 1600px;">
+              <img style="max-height: 200px; min-height: 200px;" src="https://th.bing.com/th/id/R.b49572ec1422b1a358b4fa6d0158031f?rik=UN2EtAcjYWHJlQ&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Domestic rules are determined by gender and age</h5>
+                <p class="card-text">In some societies, domestic rules and responsibilities may be influenced by gender and age. These cultural norms can shape expectations about household chores, decision-making, and roles within the family. For example, in certain cultures, there may be traditional gender roles that assign specific tasks to men and women within the household. Similarly, older family members might hold more authority or have certain privileges compared to younger members. However, it is important to note that these dynamics can vary widely across different cultures, and many societies are moving towards more egalitarian and inclusive approaches to domestic responsibilities and decision-making.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div style="margin-top: 100px; margin: 0 25px" class="content content2" id="Traditions">
+      <h1
+        class="text-center"
+        style="border-bottom: 1px solid gray; padding: 50px"
+      >
+        Traditions
+      </h1>
+      <div class="container">
+        <div class="row">
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 800px; max-height: 800px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://th.bing.com/th/id/R.d6f3f4840207dd991801e06faca85a8b?rik=sDsu3iAr6hcEAQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-MAsYcbpf6-Q%2fUHYdGv45w1I%2fAAAAAAAAAQ4%2fzrytgGBrkIg%2fs1600%2f14.BulaFiji1.jpg&ehk=02zma3nlnp6ot6WoDQZYaaVnrGRzrleqtHat28A0BIg%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bula</h5>
+                <p class="card-text">The word "bula" is a greeting tradition in Fiji. It is used to welcome and wish good health. It is common to hear people say "bula" when meeting, thus showing their kindness and hospitality.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 800px; max-height: 800px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://th.bing.com/th/id/R.3dd75ff6bee69020e921d6f3b8a95630?rik=3ldy6DBMF6IArQ&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kava</h5>
+                <p class="card-text">Kava is a traditional Fijian drink. It is prepared from the root of the kava plant and consumed at ceremonies and social events. Kava is shared as a symbol of friendship and is considered an important element in fostering community togetherness.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 800px; max-height: 800px;">
+                              <img style="min-height: 200px; max-height: 200px;"  src="https://th.bing.com/th/id/R.857fdb97e96211ec72ded27358ccbf46?rik=12O5%2fcf96IPE4w&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dances</h5>
+                <p class="card-text">Traditional dances, such as the Meke, are an integral part of Fijian culture. These dances are performed with graceful movements and are accompanied by singing and drumming. Traditional dances are a way to convey stories, preserve cultural identity, and celebrate important events.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+            <div class="card" style="min-height: 800px; max-height: 800px;">
+              <img style="min-height: 200px; max-height: 200px;"  src="https://th.bing.com/th/id/OIP.D3Wpx4wjlbS_asXmCoKh4QHaHa?pid=ImgDet&w=1564&h=1564&rs=1" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tattoos</h5>
+                <p class="card-text">Traditional Fijian tattoos, known as "tatau", are a significant aspect of the culture. These tattoos often have intricate geometric patterns and are considered symbols of status, bravery, and beauty. Tattoos are an artistic and cultural expression that has endured over the years.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div style="margin-top: 100px; margin: 0 25px" class="content content1" id="Language">
+        <h1
+          class="text-center"
+          style="border-bottom: 1px solid gray; padding: 50px"
+        >
+          Language
+        </h1>
+        <p style="padding: 25px; text-align: center">
+          In Fiji, several languages are spoken, reflecting the ethnic and cultural diversity of the country. The official languages of Fiji are English, Fijian, and Fijian Hindi. Each of these languages has its own status and is used in different contexts in society.
+<br><br>
+          English is widely spoken and understood in Fiji and is used as the primary language in government, education, business, and tourism. English is taught in schools and is the medium of instruction in most educational institutions. Additionally, many Fijians are bilingual in English and their native language.
+          <br><br>  
+          Fijian, known as "Vosa Vakaviti" in the local language, is the native language of the ethnic Fijians, who make up the majority of the population. It is an Austronesian language from the Malayo-Polynesian language family and has several regional variants. Fijian is used in everyday life, community interaction, traditional ceremonies, and is taught in schools as part of the curriculum.
+          <br><br>
+          Fijian Hindi is the language spoken by Fijians of Indian descent, who constitute a significant portion of the population. It is a form of Hindi influenced by Fijian and English. Fijian Hindi is used in daily communication, interpersonal relationships, and Hindi media in Fiji.
+          <br><br>
+          In addition to these main languages, there are other minority languages spoken in Fiji, such as Chinese, Urdu, and other languages of the minority ethnic communities present in the country.
+          <br><br>
+          The diversity of languages in Fiji reflects the rich cultural and ethnic heritage of the nation, and multilingualism is an important feature of daily life and social interaction in the country.
+        </p>
+      </div>
+      <div style="margin-top: 100px; margin: 0 25px" class="content content1">
+        <h1
+          class="text-center"
+          style="border-bottom: 1px solid gray; padding: 50px"
+        >
+          Trade
+        </h1>
+        <p style="padding: 25px; text-align: center">
+
+          Trade plays a significant role in Fiji's economy. The country relies heavily on international trade for its economic growth and the development of key sectors such as tourism, agriculture, and manufacturing.
+          <br><br>  
+          Fiji exports a variety of products, with notable exports including sugar, fish, agricultural products such as kava root, coconut oil, ginger, and textiles. Tourism is also a major export sector, as Fiji is known for its beautiful beaches, vibrant culture, and luxury resorts.
+          <br><br>  
+          Fiji's major trading partners include Australia, New Zealand, the United States, and countries in the Pacific region. These countries account for a significant portion of Fiji's exports and are important sources of foreign investment and tourism.
+          <br><br>  
+          Additionally, Fiji is a member of various trade organizations and regional agreements such as the World Trade Organization (WTO), the Africa, Caribbean, and Pacific (ACP) Economic Partnership Agreement, and the Pacific Islands Forum (PIF). These memberships and agreements facilitate access to international markets and promote regional trade.
+          <br><br>  
+          However, it is important to note that Fiji faces challenges in its trade, such as dependence on a limited number of export commodities, volatility in international commodity prices, and the need for economic diversification. The country continues to work on promoting favorable trade policies, improving infrastructure, and attracting foreign investment to drive its trade and economic development.
+        </p>
+      </div>
+      
+      <div style="margin-top: 100px; margin: 0 25px" class="content content2" id="Foods">
+        <h1
+          class="text-center"
+          style="border-bottom: 1px solid gray; padding: 50px"
+        >
+          Typical Foods
+        </h1>
+        <div class="container">
+          <div class="row">
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 600px; max-height: 600px;">
+                                <img style="max-height: 200px; min-height: 200px;"  src="https://th.bing.com/th/id/OIP.rMyWBm9zGJcYM5jYYBl4DAAAAA?pid=ImgDet&rs=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lovo</h5>
+                  <p class="card-text">It is mainly prepared for special occasions such as weddings or festivities. It is cooked in a hole in the ground, like an oven, lined with coconut shells that are lit and then covered with stones.</p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 600px; max-height: 600px;">
+                                <img style="max-height: 200px; min-height: 200px;"  src="https://th.bing.com/th/id/R.fc5d6c0ffa5da72940249e2413edd541?rik=i9%2ft%2fk%2fXlHfpug&riu=http%3a%2f%2f1.bp.blogspot.com%2f-lT1k5gO-LCE%2fVV1UjzMJEUI%2fAAAAAAAAKNo%2f5jcVWI50e7A%2fs1600%2f_HW09784.jpg&ehk=nhNU9%2bOd2j%2fjIbXCjHflNhaTzPSeu3N98vZnccpfWHY%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kokoda</h5>
+                  <p class="card-text">It is the Fijian version of cebiche, made with fish known as mahi mahi, coconut 
+
+                    milk, tomatoes, onions and lime, ingredients that are easily found on the islands
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 600px; max-height: 600px;">
+                                <img style="max-height: 200px; min-height: 200px;"  src="https://th.bing.com/th/id/R.5be79005de7b7efcb34ac469e609f73b?rik=iyMbjzYcgHGDfw&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kava</h5>
+                  <p class="card-text">It is the national drink of Fiji. This drink is made from the root of kava, a plant of the pepper family.</p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 600px; max-height: 600px;">
+                <img style="max-height: 200px; min-height: 200px;"  src="https://th.bing.com/th/id/R.462702d0a2a93b6c7cc1528bc9ebd8d5?rik=h%2fxxhUHw9Zs5cg&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Duruka</h5>
+                  <p class="card-text">A popular vegetable in Fiji, similar to an asparagus and maturing during the months of April and May.  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div style="margin-top: 100px; margin: 0 25px" class="content content2" id="Clothes">
+        <h1
+          class="text-center"
+          style="border-bottom: 1px solid gray; padding: 50px"
+        >
+          Typical Clothings
+        </h1>
+        <div class="container">
+          <div class="row">
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 800px; max-height: 800px;">
+                                <img style="max-height: 200px; min-height: 200px;" src="https://th.bing.com/th/id/R.40260e68401fdbba93ecc12b5b27666a?rik=bQs5t8eMVABDYA&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bula Shirt</h5>
+                  <p class="card-text">The "bula shirt" is a colorful, loose-fitting, collared shirt that is commonly worn by both men and women in Fiji. It is often made from bright, printed fabric and is a symbol of Fijian hospitality and friendliness. Bula shirts are worn for both casual and formal occasions. </p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 800px; max-height: 800px;">
+                                <img style="max-height: 200px; min-height: 200px;" src="https://th.bing.com/th/id/R.1158b42436515455905bf10cbfb4be6f?rik=iWeMT4T9mAKUVA&pid=ImgRaw&r=0 class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sulu</h5>
+                  <p class="card-text">The "sulu" is a traditional Fijian garment that resembles a wrap-around skirt or sarong. It is worn by both men and women and is considered appropriate for everyday wear. The sulu is typically made from colorful fabric and is worn with a matching or contrasting bula shirt.</p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 800px; max-height: 800px;">
+                                <img style="max-height: 200px; min-height: 200px;" src="https://th.bing.com/th/id/OIP.PV4stdVR85jK1sDmjUOF0gHaJB?pid=ImgDet&rs=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bula Dress</h5>
+                  <p class="card-text">The "bula dress" is a traditional Fijian dress worn by women. It is a loose-fitting, knee-length dress made from colorful fabric with bold patterns and designs. Bula dresses are often worn for special occasions, cultural events, or formal ceremonies. </p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 800px; max-height: 800px;">
+                <img style="max-height: 200px; min-height: 200px;" src="https://i.pinimg.com/originals/90/0c/7f/900c7f241129ee946ad87aab287b2cf0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Salusalu</h5>
+                  <p class="card-text"> The "salusalu" is a traditional Fijian necklace made from fragrant and colorful flower blossoms, leaves, or shells. It is worn around the neck and is a symbol of welcome and respect. Salusalu is often worn with traditional clothing or as an accessory for cultural events and ceremonies.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+          <div style="margin-top: 100px; margin: 0 25px" class="content content2" id="Currency">
+            <h1
+              class="text-center"
+              style="border-bottom: 1px solid gray; padding: 50px"
+            >
+              Currency
+            </h1>
+            <div class="row">
+              <div class="col-sm-4">
+                <img
+                style="padding: 25px;"
+                  class="img-fluid"
+                  src="https://th.bing.com/th/id/R.eadb891bfd352466b83e3a49c734fd81?rik=5Il74E3Gcl%2fBzg&pid=ImgRaw&r=0"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 25px;" class="col-sm-8" >
+                <p style="text-align: center">
+                  The official currency of Fiji is the Fijian dollar (FJD). The Fijian dollar is divided into 100 cents. The coins in circulation are in denominations of 5, 10, 20, and 50 cents, as well as 1 dollar. The banknotes in circulation come in denominations of 5, 10, 20, 50, and 100 Fijian dollars.
+
+                  It's important to note that the Fijian dollar is the only legal tender in Fiji and is used in all commercial transactions. When visiting Fiji, it is advisable to carry some cash in the local currency for payments at local shops or small establishments where credit or debit cards may not always be accepted. Foreign currency can also be exchanged for Fijian dollars at banks or authorized currency exchange offices in the country.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div style="margin-top: 100px; margin: 0 25px" class="content content2" id="FandF">
+          <h1
+            class="text-center"
+            style="border-bottom: 1px solid gray; padding: 50px"
+          >
+            Flora and Fauna
+          </h1>
+          <div class="container">
+
+            <div class="row">
+              <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+                <div class="card" style="min-height: 800px; max-height: 800px;">
+                                  <img style="max-height: 200px; min-height: 200px;"  src="https://th.bing.com/th/id/OIP.3BBGvAO1Db1Zw3Vwe25qDgHaE8?pid=ImgDet&rs=1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Mangroves</h5>
+                    <p class="card-text"> Fiji has extensive mangrove ecosystems along its coasts. These unique plants thrive in brackish water and provide important habitats for various marine species. Mangroves also help protect the coastlines from erosion and act as nurseries for fish and other marine organisms.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+                <div class="card" style="min-height: 800px; max-height: 800px;">
+                                  <img style="max-height: 200px; min-height: 200px;"  src="https://bigbluefiji.com/wp-content/uploads/2017/09/fiji-charter-coral-reef-life.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Coral Reefs</h5>
+                    <p class="card-text">Fiji is renowned for its stunning coral reefs, which are teeming with marine life. These underwater ecosystems are composed of a diverse array of coral species, along with sponges, sea fans, and anemones. The coral reefs support a wide range of fish, turtles, rays, and other marine creatures.</p>
+                  </div>
+                </div>
+              </div>
+              <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+                <div class="card" style="min-height: 800px; max-height: 800px;">
+                                  <img style="max-height: 200px; min-height: 200px;"  src="https://th.bing.com/th/id/R.425163a65ea04d5459205296068eb44d?rik=6irhbFFoQGKjsw&riu=http%3a%2f%2ftaveunioceansports.com%2fimg%2fslider%2f_DSC6347_slides.jpg&ehk=YIZw2tUPwzU82Swc4w8JEQBaIRHWowZMMHexPDyW%2fBQ%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Marine Life</h5>
+                    <p class="card-text">The waters surrounding Fiji are known for their incredible biodiversity. Divers and snorkelers can encounter colorful reef fish, sharks, rays, sea turtles, and an abundance of coral species. Fiji's waters also attract migratory species such as humpback whales, dolphins, and various types of seabirds.</p>
+                  </div>
+                </div>
+              </div>
+              <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+                <div class="card" style="min-height: 800px; max-height: 800px;">
+                  <img style="max-height: 200px; min-height: 200px;"  src="https://th.bing.com/th/id/R.b34c671f240a4b1fa4c0f9aae2d5e20f?rik=l0LV1q8OTDHDuA&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Land Mammals</h5>
+                    <p class="card-text">Fiji has a limited number of native land mammal species, including fruit bats (known as flying foxes) and small rodents. However, various introduced mammal species, such as pigs, goats, and mongooses, have been introduced to the islands.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+        </div>
+        </div>
+        
+        <div style="margin-top: 100px; margin: 0 25px" class="content content2" id="Music">
+          <h1
+            class="text-center"
+            style="border-bottom: 1px solid gray; padding: 50px"
+          >
+            Music
+          </h1>
+          <div class="row">
+            <div class="col-sm-4">
+              <img
+              style="padding: 25px;"
+                class="img-fluid"
+                src="https://www.amazing-fiji-vacations.com/images/xFiji_Music_show.jpg.pagespeed.ic.JkFYeh4K52.jpg"
+                alt=""
+              />
+            </div>
+            <div style="padding: 25px;" class="col-sm-8" >
+              <p style="text-align: center">
+                Fijian music encompasses traditional forms like Meke, which combines singing, clapping, and dancing, often with historical or cultural themes. Vocal harmonies are an integral part of Fijian music, and group singing is common. The lali drum is a traditional instrument used for rhythmic accompaniment and signaling. Gospel music is popular, blending Christian lyrics with traditional Fijian elements. Contemporary Fijian music incorporates Western genres like pop, reggae, and hip-hop, creating a diverse and vibrant music scene in Fiji.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 100px; margin: 0 25px" class="content content2" id="Instruments">
+        <h1
+          class="text-center"
+          style="border-bottom: 1px solid gray; padding: 50px"
+        >
+          Instruments
+        </h1>
+        <div class="container">
+          <div class="row">
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 800px; max-height: 800px;">
+                                <img style="max-height: 200px; min-height: 200px;"  src="https://th.bing.com/th/id/OIP.oo4EVeKHcrTMM1rM14KsMAHaE8?pid=ImgDet&rs=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lali</h5>
+                  <p class="card-text">The lali is a type of wooden drum carved in the shape of a hollow tree trunk. It is used to communicate and convey important messages in the community. It is played by beating the drum with wooden sticks, producing a distinctive, resonant sound.
+
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 800px; max-height: 800px;">
+                                <img style="max-height: 200px; min-height: 200px;"  src="https://img1.etsystatic.com/113/0/6920217/il_570xN.881445305_q9l6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Davul</h5>
+                  <p class="card-text">The davul is a double-headed drum found in many cultures around the world. It consists of two patches of animal skin that are stretched over a wooden or metal frame. Played with sticks or hands, it produces a rhythmic, vibrating sound.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 800px; max-height: 800px;">
+                                <img style="max-height: 200px; min-height: 200px;"  src="https://i.pinimg.com/474x/93/c4/5b/93c45bf377dcc089715fbc2c8eefcb34--fiji-flute.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tuitui</h5>
+                  <p class="card-text">The tuitui is a string musical instrument similar to a bow. It consists of a wooden stick with a rope stretched along it. The player rubs the string with a stick to produce a melodious, resonant sound. It is used both to accompany songs and to play solo melodies.
+
+
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 800px; max-height: 800px;">
+                <img style="max-height: 200px; min-height: 200px;"  src="https://english.fujarka.cz/pictures/sestdierove-pistaly-01.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dida</h5>
+                  <p class="card-text">The dida is a kind of traditional maraca from the Fiji Islands. It is made from a dried, hollowed-out gourd that contains seeds or other small objects. It is shaken to produce a rhythmic sound and is used as a musical accompaniment in many ceremonies and celebrations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 100px; margin: 0 25px" class="content content2" id="Places">
+        <h1
+          class="text-center"
+          style="border-bottom: 1px solid gray; padding: 50px"
+        >
+          Tourist Places
+        </h1>
+        <div class="container">
+          <div class="row">
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 700px;">
+                                <img  style="min-height: 150px;max-height: 150px;" src="https://th.bing.com/th/id/OIP.YGiUTSp_My1eYsbdxtqVRwHaEK?pid=ImgDet&rs=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Denarau Island </h5>
+                  <p class="card-text"> Denarau Island Located near the city of Nadi, it is known for its luxurious resorts, world-class golf courses, and a wide range of water activities.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 700px;">
+                                <img  style="min-height: 150px;max-height: 150px;" src="https://th.bing.com/th/id/R.5480fd3829cd0f3e159041171e9023df?rik=hs842FnWUMD7Qg&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Yasawa Islands</h5>
+                  <p class="card-text">This group of volcanic islands offers white sand beaches, crystal clear waters and a wide variety of resorts to enjoy a tropical getaway. It is an ideal destination for diving, snorkeling and hiking.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 700px;">
+                                <img  style="min-height: 150px;max-height: 150px;" src="https://th.bing.com/th/id/R.c63b99bbdb6f8509ea2fcfe93067608d?rik=eHDg4Hx8RoshPA&riu=http%3a%2f%2fdxnews.com%2fupload%2fImage%2fFiji_3D2KM_Tourist.jpg&ehk=VprbS5kjGYuy2QUeCLO%2bLGBTyAy5itt9fIFUa7YcXHk%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Island of Viti Levu</h5>
+                  <p class="card-text"> Fiji's largest island is home to the capital city, Suva, and offers a mix of culture, history, and natural beauty.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 700px;">
+                <img  style="min-height: 150px;max-height: 150px;" src="https://th.bing.com/th/id/OIP.BrD3T1Jss_6BAxM0kPDlMgHaE8?pid=ImgDet&rs=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mamanuca Islands</h5>
+                  <p class="card-text"> Located to the west of Viti Levu, these islands are known for their beautiful white sand beaches and crystal clear waters. They are famous for being the setting for the movie "Cast Away" and offer excellent opportunities for water sports and diving.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 100px; margin: 0 25px" class="content content1" id="Sustaniability">
+        <h1
+          class="text-center"
+          style="border-bottom: 1px solid gray; padding: 50px"
+        >
+          Sustaniability
+        </h1>
+        <p style="padding: 25px; text-align: justify">
+          Fiji, like many other regions around the world, is actively working towards promoting sustainability. Here are some areas where sustainability initiatives are being undertaken in Fiji:
+          <br><br>
+Renewable Energy: Fiji is promoting the use of renewable energy sources to reduce its dependence on fossil fuels. Projects involving solar, wind, and biomass energy are being implemented to increase the capacity for clean energy generation.
+<br><br>
+Biodiversity Conservation: Fiji is known for its rich marine and terrestrial biodiversity. Protected areas and marine reserves are being established to conserve ecosystems and endangered species. Education and awareness efforts are also being carried out to promote wildlife conservation and protection.
+<br><br>
+Sustainable Tourism: As a popular tourist destination, Fiji is focusing on sustainable tourism. Sustainable management practices are being implemented in resorts, and responsible tourism practices that minimize environmental and cultural impact are being promoted.
+<br><br>
+Sustainable Agriculture: Fiji is encouraging sustainable agricultural practices such as organic farming and agroforestry to reduce chemical use and promote soil and water conservation.
+<br><br>
+Waste Management: Waste management programs are being implemented to reduce the amount of waste ending up in landfills and the environment. This includes promoting recycling, reuse, and waste reduction efforts.
+<br><br>
+These are just a few examples of the sustainability initiatives taking place in Fiji. The government, non-governmental organizations, and civil society are working together to promote sustainability and address environmental and social challenges faced by the country.
+<br><br>
+
+
+
+
+        </p>
+      </div>
+  
+      <div style="margin-top: 100px; margin: 0 25px" class="content content2" id="Ubication">
+        <h1
+          class="text-center"
+          style="border-bottom: 1px solid gray; padding: 50px"
+        >
+          Ubication
+        </h1>
+        <div class="row">
+          <div class="col-sm-4">
+            <img
+            style="padding: 25px; max-height: 300px;"
+              class="img-fluid"
+              src="https://th.bing.com/th/id/R.54c44d510d0cef03f1d14c0186f7edeb?rik=8kgjknb3KXt1jA&riu=http%3a%2f%2fblog.felicesvacaciones.es%2fpics%2f2016%2f02%2ffiji_map.jpg&ehk=i%2bqE2kmpfQ40B%2fVMg%2fU8%2brEiRA%2f7PVbna8hHQQCyrQ0%3d&risl=&pid=ImgRaw&r=0"
+              alt=""
+            />
+          </div>
+          <div style="padding: 25px;" class="col-sm-8" >
+            <p style="text-align: left">
+              Fiji is an archipelago located in the South Pacific Ocean. It is situated in the southwestern part of the Pacific Ocean, approximately 2,000 kilometers (1,200 miles) northeast of New Zealand's North Island. 
+<br><br><br>
+              Fiji is comprised of more than 300 islands, with the two largest islands being Viti Levu and Vanua Levu. The capital city, Suva, is located on the southeastern coast of Viti Levu. Nadi, another major city, is situated on the western side of Viti Levu and is home to Fiji's main international airport.
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div style="margin-top: 100px; margin: 0 25px" class="content content2" id="Activities">
+        <h1
+          class="text-center"
+          style="border-bottom: 1px solid gray; padding: 50px"
+        >
+          Activities
+        </h1>
+        <div class="container">
+          <div class="row">
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 950px ; max-height: 950px ;">
+                                <img style="min-height: 200px; max-height: 200px;"  src="https://th.bing.com/th/id/R.1a2c8e11062bc3c3b5c4154401bdffb3?rik=AvNXm9TKx2Qr4g&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Diving and Snorkeling</h5>
+                  <p class="card-text">Fiji is known for its stunning coral reefs and crystal-clear waters. Both experienced divers and beginners can explore the colorful coral reefs and discover a diverse marine life. If you prefer something more relaxed, snorkeling allows you to observe the underwater beauty without the need for specialized equipment.
+
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 950px ; max-height: 950px ;">
+                                <img style="min-height: 200px; max-height: 200px;"  src="https://th.bing.com/th/id/R.fb7e9bee05547dc19a0cfda0d07f9edf?rik=o3UahMcDfPKZlw&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Island Hopping</h5>
+                  <p class="card-text">Fiji is made up of over 300 islands, each with its own charm and beauty. You can take boat trips to different islands, such as the famous Yasawa Islands or the Mamanuca Islands. Enjoy white sandy beaches, turquoise waters, breathtaking landscapes, and activities like hiking, visiting local villages, and relaxation at luxury resorts.</p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 950px ; max-height: 950px ;">
+                                <img style="min-height: 200px; max-height: 200px;"  src="https://www.fijiorchid.com/wp-content/uploads/2018/07/botanical_gardens.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Visit Botanical Gardens and Nature Parks</h5>
+                  <p class="card-text">Fiji has lush botanical gardens and nature parks that offer an opportunity to enjoy the country's natural beauty. Take a stroll through tropical gardens, admire a variety of flowers and plants, and learn about Fiji's native flora.</p>
+                </div>
+              </div>
+            </div>
+            <div style="margin: 25px 0;" class="col-sm-6 col-md-3">
+              <div class="card" style="min-height: 950px ; max-height: 950px ;">
+                <img style="min-height: 200px; max-height: 200px;"  src="https://www.oceanalliance.com/wp-content/uploads/2017/03/fiji-people10.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Experience the Local Culture</h5>
+                  <p class="card-text">Fiji has a rich culture and traditions worth exploring. You can visit local villages and participate in traditional ceremonies, such as the kava ceremony, where a traditional drink made from the roots of a native plant is shared. You can also enjoy traditional dance and music performances and learn about local craftsmanship, such as weaving and wood carving.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+    <footer style="background-color: #122e45;" class="text-white py-3 mt-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h1 style="font-weight: bolder; font-size: 50px">FIJI</h1>
+          </div>
+          <div class="col-md-3">
+            
+            <ul class="list-unstyled">
+              <li><a style="text-decoration: none; color: white;" href="#Foundation">FOUNDATION</a></li>
+              <li><a style="text-decoration: none; color: white;" href="#Policy">POLICY</a></li>
+              <li><a style="text-decoration: none; color: white;" href="#Flag">FLAG</li>
+              <li><a style="text-decoration: none; color: white;" href="#Costumes">COSTUMES</a></li>
+              <li><a style="text-decoration: none; color: white;" href="#Traditions">TRADITIONS</a></li>
+              <li><a style="text-decoration: none; color: white;" href="#Ubication">UBICATION</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            
+            <ul class="list-unstyled">
+              <li><a style="text-decoration: none; color: white;" href="#Language">LANGUAGE</a></li>
+              <li><a style="text-decoration: none; color: white;" href="#Trade">TRADE</a></li>
+              <li><a style="text-decoration: none; color: white;" href="#Food">FOOD</a></li>
+              <li><a style="text-decoration: none; color: white;" href="#Clothes">CLOTHES</a></li>
+              <li><a style="text-decoration: none; color: white;" href="#Currency">CURRENCY</a></li>
+              <li><a style="text-decoration: none; color: white;" href="#Activities">ACTIVITIES</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            
+            <ul class="list-unstyled">
+              <li><a style="text-decoration: none; color: white;" href="#FandF">FLORA AND FAUNA</a></li>
+              <li><a style="text-decoration: none; color: white;" href="#Music">MUSIC</a></li>
+              <li><a style="text-decoration: none; color: white;" href="#Instruments">INSTRUMENTS</a></li>
+              <li><a style="text-decoration: none; color: white;" href="#Places">TOURIST PLACES</a></li>
+              <li><a style="text-decoration: none; color: white;" href="#Sustainability">SUSTAINABILITY</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>&copy; 2023 Jhosuan Ali Gonzalez</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+// Obtener el elemento del interruptor de cambio
+const switchCheckbox = document.getElementById('flexSwitchCheckChecked');
+// Obtener el elemento nav
+const nav = document.getElementById('myNav');
+
+// Agregar un evento de escucha para el cambio en el interruptor
+switchCheckbox.addEventListener('change', function() {
+  if (this.checked) {
+    // Si el interruptor está marcado (modo oscuro)
+    document.body.classList.add('dark-mode');
+    nav.classList.add('navbar', 'bg-dark', 'border-bottom', 'border-bottom-dark');
+    nav.setAttribute('data-bs-theme', 'dark');
+  } else {
+    // Si el interruptor no está marcado (modo claro)
+    document.body.classList.remove('dark-mode');
+    nav.classList.remove('navbar-dark', 'bg-dark');
+    nav.removeAttribute('data-bs-theme');
+  }
+});
+
+      </script>
+  </body>
+</html>
